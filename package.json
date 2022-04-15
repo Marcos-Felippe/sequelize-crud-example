@@ -1,0 +1,27 @@
+{
+  "name": "sequelizeormexample",
+  "version": "1.0.0",
+  "description": "Using Sequelize to connect to a database",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "pg",
+    "sequelize",
+    "node"
+  ],
+  "author": "Marcos Felippe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
